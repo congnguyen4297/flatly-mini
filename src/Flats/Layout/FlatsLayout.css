@@ -57,10 +57,6 @@
   margin: 10px 0px 0px 0px;
 }
 
-.FlatForm {
-  padding: 25px 50px;
-}
-
 .FlatRowCenter {
   display: flex; 
   justify-content: center;
