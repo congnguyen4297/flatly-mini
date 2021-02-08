@@ -62,7 +62,7 @@ function NavigatorBar(props) {
 const HeaderWithRouter = withRouter(NavigatorBar);
 
 function App() {
-  const mainURL = "http://localhost:8080";
+  const mainURL = "http://flatly-mini.herokuapp.com";
 
   return (
     <Provider store = {store}>
