@@ -2,7 +2,7 @@ export const BACKEND_URL = 'http://flatly-env.eba-pftr9jj2.eu-central-1.elasticb
 export const FLATS_URL = 'http://flatly-env.eba-pftr9jj2.eu-central-1.elasticbeanstalk.com/flats/';
 export const BOOKINGS_URL = 'http://flatly-env.eba-pftr9jj2.eu-central-1.elasticbeanstalk.com/bookings/';
 export const LOGIN_URL = 'http://flatly-env.eba-pftr9jj2.eu-central-1.elasticbeanstalk.com/login';
-export const  mainURL = "http://localhost:8080";
+export const  mainURL = "http://flatly-mini.herokuapp.com";
 
 export const DEBUGGING = false;
 export const TESTING = false;

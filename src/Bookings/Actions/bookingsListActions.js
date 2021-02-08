@@ -40,7 +40,7 @@ export function cancelBooking(bookingId) {
         try {
             dispatch(bookingCanceling(bookingId))
             await fetchDelete(BOOKINGS_URL + bookingId, {method: 'DELETE'});
-            dispatch(loadBookingsListAsync());
+            dispatch(loadBookingsListAsync(BOOKINGS_URL));
         } catch(error) {
             console.error(error);
             dispatch(bookingCancelingError(error))

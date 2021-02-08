@@ -30,7 +30,7 @@ export function flatDeletingError(error) {
   return ({type: FLATS_DELETING_ERROR, payload: error})
 }
 
-export function loadFlatListAsync(URL, pageNumber) {
+export function loadFlatListAsync(URL) {
   if (DEBUGGING) {
     return async (dispatch) => {
       dispatch(flatListLoading(true));
@@ -45,7 +45,7 @@ export function loadFlatListAsync(URL, pageNumber) {
                 empty: true
               },
               offset: 0,
-              pageNumber: pageNumber,
+              pageNumber: 0,
               pageSize: 10,
               unpaged: false,
               paged: true

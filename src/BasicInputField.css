@@ -4,9 +4,7 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: hsl(0, 0%, 100%);
     border-color: hsl(0, 0%, 80%);
-    border-radius: 4px;
     border-style: solid;
     border-width: 1px;
     cursor: default;
@@ -28,6 +26,16 @@
     transition: all 100ms;
     box-sizing: border-box;
     padding: 2px 8px;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .BasicInputField:focus {

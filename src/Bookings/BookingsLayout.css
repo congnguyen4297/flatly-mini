@@ -1,5 +1,5 @@
 .BookingsList {
-    padding: 25px 100px 50px 50px;
+  padding: 25px 50px;
   }
   
   .BookingsTable {
@@ -15,6 +15,13 @@
     color: white;
     border-top: none;
   }
+
+  .BookingsTable > thead > tr >  th > button {
+    background: none;
+    font: inherit;
+    color: white;
+    border: none;
+  }
   
   .BookingsRow {
     background: #eacda3;  
@@ -29,28 +36,24 @@
   }
   
   .GreenButton {
-    background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0f9b0f, #000000); 
+    background-color: #0f9b0f !important;
     border-style: none !important;
     width: 80px;
     margin: 0px 0px 0px 5px;
   }
   .RedButton {
-    background: #8E0E00;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #8E0E00 !important;  /* fallback for old browsers */
     border-style: none !important;
     width: 80px;
     margin: 0px 0px 0px 5px;
   }
   
   .BookingsForm {
-    padding: 25px 100px 50px 50px;
+    padding: 25px 50px;
   }
   
   .BookingsForm {
-    padding: 25px 100px 50px 50px;
+    padding: 25px 50px;
   }
   
   .BookingRowCenter {

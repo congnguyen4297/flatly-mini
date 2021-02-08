@@ -70,15 +70,15 @@ function App() {
         <Fragment>
           <Route path={`/bookings/details/:bookingId`} exact>
             <HeaderWithRouter />
-            <BookingDetails mainURL={mainURL} />
+            <BookingDetails />
           </Route>
           <Route path="/bookings/flatId=:flatId" exact>
             <HeaderWithRouter />
-            <BookingsList mainURL={mainURL} />
+            <BookingsList />
           </Route>
           <Route path="/bookings" exact>
             <HeaderWithRouter />
-            <BookingsList mainURL={mainURL} />
+            <BookingsList />
           </Route>
           <Route path="/flats/add" exact>
             <HeaderWithRouter />
@@ -94,7 +94,7 @@ function App() {
           </Route>
           <Route path="/flats" exact>
             <HeaderWithRouter />
-            <FlatsList mainURL={mainURL} />
+            <FlatsList />
           </Route>
           <Route path="/" exact>
             <LoginPage />

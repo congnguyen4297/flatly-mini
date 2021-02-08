@@ -48,7 +48,7 @@ function BookingDetails(props) {
                 <Form.Group as={Row} controlId="name">
                   <Form.Label column sm="2">Person renting</Form.Label>
                   <Col sm="10">
-                    <Form.Control type="text" name="name" value={`${props.booking.customer.name} ${props.booking.customer.surname}`} 
+                    <Form.Control type="text" name="name" value={`${props.booking.customer.firstName} ${props.booking.customer.lastName}`} 
                     plaintext={true} readOnly={true} />
                   </Col>
                 </Form.Group>
@@ -64,7 +64,7 @@ function BookingDetails(props) {
                <Form.Group as={Row} controlId="name">
                   <Form.Label column sm="2">Contact number</Form.Label>
                   <Col sm="10">
-                    <Form.Control type="text" name="name" value={props.booking.customer.phoneNo} 
+                    <Form.Control type="text" name="name" value={props.booking.customer.phoneNumber} 
                     plaintext={true} readOnly={true} />
                   </Col>
                 </Form.Group>
