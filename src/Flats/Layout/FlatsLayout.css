@@ -1,0 +1,86 @@
+.FlatsList {
+  padding: 25px 100px 50px 50px;
+}
+
+.FlatsTable {
+  margin-top: 50px;
+  border-radius: 50px;
+  text-align: center;    
+}
+
+.FlatsTable > thead {
+  background: #a73737;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #7a2828, #a73737);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #7a2828, #a73737); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  border-top: none;
+}
+
+.FlatsRow {
+  background: #eacda3;  
+  background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3); 
+  background: linear-gradient(to right, #d6ae7b, #eacda3);
+} 
+
+.FlatsForm label {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 7px; 
+}
+
+.ButtonAddFlat {
+  background: #a73737;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #7a2828, #a73737);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #7a2828, #a73737); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.GreenButton {
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0f9b0f, #000000); 
+  border-style: none !important;
+  width: 80px;
+  margin: 0px 0px 0px 5px;
+}
+.BlueButton {
+  background: #000046;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-style: none !important;
+  width: 80px;
+  margin: 0px 0px 0px 5px;
+}
+.RedButton {
+  background: #8E0E00;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-style: none !important;
+  width: 80px;
+  margin: 0px 0px 0px 5px;
+}
+.LargeBlueButton {
+  background: #000046;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-style: none !important;
+  width: 400px;
+  margin: 10px 0px 0px 0px;
+}
+
+.FlatForm {
+  padding: 25px 100px 50px 50px;
+}
+
+.FlatRowCenter {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px 0px 0px;
+}
+.FlatRowRight {
+  display: flex; 
+  align-items: flex-end;
+  justify-content: flex-end;
+}

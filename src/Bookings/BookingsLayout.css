@@ -1,0 +1,72 @@
+.BookingsList {
+    padding: 25px 100px 50px 50px;
+  }
+  
+  .BookingsTable {
+    margin-top: 50px;
+    border-radius: 50px;
+    text-align: center;    
+  }
+  
+  .BookingsTable > thead {
+    background: #a73737;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #7a2828, #a73737);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #7a2828, #a73737); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    border-top: none;
+  }
+  
+  .BookingsRow {
+    background: #eacda3;  
+    background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3); 
+    background: linear-gradient(to right, #d6ae7b, #eacda3);
+  } 
+  
+  .BookingsForm label {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 7px; 
+  }
+  
+  .GreenButton {
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f9b0f, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f9b0f, #000000); 
+    border-style: none !important;
+    width: 80px;
+    margin: 0px 0px 0px 5px;
+  }
+  .RedButton {
+    background: #8E0E00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-style: none !important;
+    width: 80px;
+    margin: 0px 0px 0px 5px;
+  }
+  
+  .BookingsForm {
+    padding: 25px 100px 50px 50px;
+  }
+  
+  .BookingsForm {
+    padding: 25px 100px 50px 50px;
+  }
+  
+  .BookingRowCenter {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px 0px 0px;
+  }
+  .BookingRowRight {
+    display: flex; 
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+
+  .FlatRowRight {
+    display: flex; 
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
